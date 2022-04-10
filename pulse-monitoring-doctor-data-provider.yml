@@ -1,0 +1,15 @@
+spring:
+ 
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    password: ${POSTGRES_PASSWORD}
+    
+    username: ghtmbhtbbkomzv
+    url: jdbc:postgresql://ghtmbhtbbkomzv:6124b5633135c44625b6a3b558738a265aa4bd937160eda517ebbd7631fee8c0@ec2-52-48-159-67.eu-west-1.compute.amazonaws.com:5432/d4drh2kqpcbfa
+    
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQL9Dialect
